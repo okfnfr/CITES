@@ -1,0 +1,5 @@
+CITES1 = "https://api.speciesplus.net/api/v1/taxon_concepts/"
+CITES2_EN = "/distributions.json"
+CITES2 = "/distributions.json?language=fr"
+CITES_KEY = "re7ck8hwhPpbTDXEhjHpuAtt"
+CITES2_LEGISLATION = "/cites_legislation.json?language=fr"
