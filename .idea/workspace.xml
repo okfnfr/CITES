@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a3b83f57-d175-4f64-9be3-2d94fc059014" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/IMPORT DB/C_CONFIG.py" beforeDir="false" afterPath="$PROJECT_DIR$/IMPORT DB/C_CONFIG.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMPORT DB/Queries/Queries" beforeDir="false" afterPath="$PROJECT_DIR$/IMPORT DB/queries/examples" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMPORT DB/venv/lib/python3.7/site-packages/rdflib/plugins/stores/sparqlstore.py" beforeDir="false" afterPath="$PROJECT_DIR$/IMPORT DB/venv/lib/python3.7/site-packages/rdflib/plugins/stores/sparqlstore.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +31,8 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IMPORT DB/Queries/Queries">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/IMPORT DB/queries/examples">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
               <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
@@ -95,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IMPORT DB/C_CONFIG.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -175,7 +177,7 @@
               <item name="CITES" type="b2602c69:ProjectViewProjectNode" />
               <item name="CITES" type="462c0819:PsiDirectoryNode" />
               <item name="IMPORT DB" type="462c0819:PsiDirectoryNode" />
-              <item name="Queries" type="462c0819:PsiDirectoryNode" />
+              <item name="queries" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -290,23 +292,22 @@
       <option name="presentableId" value="Default" />
       <updated>1585292820968</updated>
       <workItem from="1585292826263" duration="2542000" />
-      <workItem from="1586500571538" duration="25529000" />
+      <workItem from="1586500571538" duration="25775000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28071000" />
+    <option name="totallyTimeSpent" value="28317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-32" y="23" width="1440" height="830" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3402778" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32938075" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.63372856" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32806325" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.63372856" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3992095" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -365,13 +366,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IMPORT DB/Queries/Queries">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/IMPORT DB/csv/cites_listings_2020-04-12 12_12_comma_separated.csv">
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state>
@@ -416,7 +410,14 @@
     <entry file="file://$PROJECT_DIR$/IMPORT DB/C_CONFIG.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IMPORT DB/queries/examples">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
         </state>
       </provider>
     </entry>

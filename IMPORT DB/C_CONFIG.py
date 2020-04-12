@@ -1,4 +1,4 @@
 DATABASE = "OKFN"
 USER = "root"
-PASSWORD = "XXXX"
+PASSWORD = "klmklm2014"
 HOST = "localhost"
