@@ -47,6 +47,7 @@ def FeedDbStatus():
         print("Erreur STATUS - INSERT")
 
 def FeedDbFromCitesDistribution():
+    print("FeedDbFromCitesDistribution")
     cnx = mysql.connector.connect(user=USER, password=PASSWORD, host=HOST, database=DATABASE)
     cursor = cnx.cursor()
     db = Database(cursor)
@@ -58,7 +59,7 @@ def FeedDbFromCitesDistribution():
 
         for row in reader:
 
-            #print(lignes_compteur)
+            print(row)
             if lignes_compteur > 0:
 
                 citesid = row['Id']
@@ -74,17 +75,25 @@ def FeedDbFromCitesDistribution():
                     phylum = row['Phylum']
                     class_c = row['Class']
                     order_c = row['Order']
+                    family = row['Family']
+                    genus = row['Genus']
+                    species = row['Species']
+                    subspecies = row['Subspecies']
                     listing_cites = row['Listing']
 
                     query = """ UPDATE MAINTABLE
                                     SET kingdom = %s,
                                         phylum = %s,
-                                        class = %s,
+                                        class_c = %s,
                                         order_c = %s,
+                                        family = %s,
+                                        genus = %s,
+                                        species = %s,
+                                        subspecies = %s,                                       
                                         listing_cites = %s
                                     WHERE wikidataid = %s """
 
-                    data = (kingdom, phylum, class_c, order_c, listing_cites, wikidataid)
+                    data = (kingdom, phylum, class_c, order_c, family, genus, species, subspecies, listing_cites, wikidataid)
                     cursor.execute(query, data)
                     cnx.commit()
 

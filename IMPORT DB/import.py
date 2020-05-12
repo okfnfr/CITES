@@ -113,7 +113,7 @@ for res in listResults:
         print("Error - citesid")
 
     try:
-        cursor.execute("INSERT INTO MAINTABLE (nom, wikidataid, image, scientific_name, taxinomic_rank, upper_taxon, citesid) VALUES (%s, %s, %s, %s, %s, %s, %s)", (name, wikidataid, image, scientific_name, taxinomic_rank, upper_taxon, citesid))
+        cursor.execute("INSERT INTO MAINTABLE (wname, wikidataid, image, scientific_name, taxinomic_rank, upper_taxon, citesid) VALUES (%s, %s, %s, %s, %s, %s, %s)", (name, wikidataid, image, scientific_name, taxinomic_rank, upper_taxon, citesid))
         cnx.commit()
         ligne = ligne + 1
         print("Row " + str(ligne))
