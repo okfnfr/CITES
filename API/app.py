@@ -1,5 +1,5 @@
-from flask import Flask, request
-from flask_restplus import Api, Resource
+from flask import Flask
+from flask_restx import Resource, Api
 import mysql.connector
 import json
 from C_CONFIG import *
