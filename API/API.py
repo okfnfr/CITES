@@ -1,11 +1,10 @@
-# Definition of the OKFN France API
-# https://blog.invivoo.com/designer-des-apis-rest-avec-flask-restplus/
 from flask import Flask, request
 from flask_restplus import Api, Resource
 import mysql.connector
 import json
 from C_CONFIG import *
 
+# https://blog.invivoo.com/designer-des-apis-rest-avec-flask-restplus/
 app = Flask(__name__)
 api = Api(app=app, version='0.1', title='OKFN Species Api', description='', validate=True)
 

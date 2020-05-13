@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3b83f57-d175-4f64-9be3-2d94fc059014" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/API.py" beforeDir="false" afterPath="$PROJECT_DIR$/API/API.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/C_CONFIG.py" beforeDir="false" afterPath="$PROJECT_DIR$/API/C_CONFIG.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IMPORT DB/C_CONFIG.py" beforeDir="false" afterPath="$PROJECT_DIR$/IMPORT DB/C_CONFIG.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMPORT DB/import.py" beforeDir="false" afterPath="$PROJECT_DIR$/IMPORT DB/import.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMPORT DB/import_cites.py" beforeDir="false" afterPath="$PROJECT_DIR$/IMPORT DB/import_cites.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMPORT DB/tables.py" beforeDir="false" afterPath="$PROJECT_DIR$/IMPORT DB/tables.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/IMPORT DB/C_CONFIG.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -72,11 +67,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/API/API.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="171" column="257" selection-start-line="171" selection-start-column="257" selection-end-line="171" selection-end-column="257" />
+            <state relative-caret-position="189">
+              <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
               <folding>
                 <element signature="e#107#139#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/API/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -154,6 +158,7 @@
         <option value="$PROJECT_DIR$/IMPORT DB/tables.py" />
         <option value="$PROJECT_DIR$/API/Request.py" />
         <option value="$PROJECT_DIR$/API/API.py" />
+        <option value="$PROJECT_DIR$/API/requirements.txt" />
         <option value="$PROJECT_DIR$/IMPORT DB/C_CONFIG.py" />
       </list>
     </option>
@@ -183,24 +188,16 @@
             <path>
               <item name="CITES" type="b2602c69:ProjectViewProjectNode" />
               <item name="CITES" type="462c0819:PsiDirectoryNode" />
-              <item name="DOC" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CITES" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CITES" type="462c0819:PsiDirectoryNode" />
               <item name="IMPORT DB" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CITES" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CITES" type="462c0819:PsiDirectoryNode" />
-              <item name="IMPORT DB" type="462c0819:PsiDirectoryNode" />
-              <item name="csv" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="CITES" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CITES" type="462c0819:PsiDirectoryNode" />
-              <item name="IMPORT DB" type="462c0819:PsiDirectoryNode" />
-              <item name="queries" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
@@ -347,12 +344,12 @@
       <workItem from="1587276826034" duration="27000" />
       <workItem from="1588331024201" duration="470000" />
       <workItem from="1588943527262" duration="168000" />
-      <workItem from="1589077997266" duration="11625000" />
+      <workItem from="1589077997266" duration="12466000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48458000" />
+    <option name="totallyTimeSpent" value="49299000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="827" extended-state="0" />
@@ -486,16 +483,6 @@
     <entry file="file://$PROJECT_DIR$/API/Request.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/API/API.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="171" column="257" selection-start-line="171" selection-start-column="257" selection-end-line="171" selection-end-column="257" />
-          <folding>
-            <element signature="e#107#139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/IMPORT DB/C_WIKIDATA.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -503,10 +490,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/API/API.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
+          <folding>
+            <element signature="e#107#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/IMPORT DB/C_CONFIG.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>

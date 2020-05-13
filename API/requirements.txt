@@ -1,0 +1,15 @@
+Flask==1.1.1
+flask-restframework==0.2.1
+flask-restplus==0.13.0
+gunicorn==19.9.0
+Jinja2==2.10.1
+jsonschema==3.2.0
+MarkupSafe==1.1.1
+mysql==0.0.2
+mysql-connector-python==8.0.17
+mysqlclient==1.4.4
+rdflib==4.2.2
+requests==2.22.0
+requests-oauthlib==1.2.0
+urllib3==1.23
+utils==0.9.0
