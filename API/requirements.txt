@@ -8,8 +8,4 @@ MarkupSafe==1.1.1
 mysql==0.0.2
 mysql-connector-python==8.0.17
 mysqlclient==1.4.4
-rdflib==4.2.2
-requests==2.22.0
-requests-oauthlib==1.2.0
-urllib3==1.23
-utils==0.9.0
+
