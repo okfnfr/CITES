@@ -190,5 +190,63 @@ class ItemByCites(Resource):
 
         return {'items': json.dumps(data, sort_keys=True, indent=4)}, 200
 
+@api.route("/SearchTextBegin/<string:begintext>")
+class SearchTextBegin(Resource):
+    def get(self, begintext):
+
+        cnx = mysql.connector.connect(user=USER, password=PASSWORD, host=HOST, database=DATABASE)
+        cursor = cnx.cursor()
+
+        sql_begintext = cursor.execute("SELECT * FROM MAINTABLE WHERE MAINTABLE.wname LIKE '" + begintext + "%' OR  MAINTABLE.scientific_name LIKE '" + begintext + "%'")
+        cursor.execute(sql_begintext)
+        rows = cursor.fetchall()
+
+        # return value
+        data = {}
+
+        fields = [i[0] for i in cursor.description]
+        r = 0
+        for row in rows:
+
+            datar = {}
+            f = 0
+            for field in fields:
+                if f != 0:
+                    datar[field] = row[f] # not necessary to have the primary key ID
+                f = f + 1
+            data['item' + str(r)] = datar
+            r = r + 1
+
+        return {'items': json.dumps(data, sort_keys=True, indent=4)}, 200
+
+@api.route("/SearchIncludeText/<string:includetext>")
+class SearchIncludeText(Resource):
+    def get(self, includetext):
+
+        cnx = mysql.connector.connect(user=USER, password=PASSWORD, host=HOST, database=DATABASE)
+        cursor = cnx.cursor()
+
+        sql_includetext = cursor.execute("SELECT * FROM MAINTABLE WHERE MAINTABLE.wname LIKE '%" + includetext + "%' OR  MAINTABLE.scientific_name LIKE '%" + includetext + "%'")
+        cursor.execute(sql_includetext)
+        rows = cursor.fetchall()
+
+        # return value
+        data = {}
+
+        fields = [i[0] for i in cursor.description]
+        r = 0
+        for row in rows:
+
+            datar = {}
+            f = 0
+            for field in fields:
+                if f != 0:
+                    datar[field] = row[f] # not necessary to have the primary key ID
+                f = f + 1
+            data['item' + str(r)] = datar
+            r = r + 1
+
+        return {'items': json.dumps(data, sort_keys=True, indent=4)}, 200
+
 if __name__ == '__main__':
     app.run(debug=True)
