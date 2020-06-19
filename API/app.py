@@ -1,5 +1,6 @@
 from flask import Flask
 from flask_restx import Resource, Api
+from flask_cors import CORS
 import mysql.connector
 import json
 from C_CONFIG import *
@@ -7,6 +8,7 @@ from C_CONFIG import *
 # https://blog.invivoo.com/designer-des-apis-rest-avec-flask-restplus/
 app = Flask(__name__)
 api = Api(app=app, version='0.1', title='OKFN Species Api', description='', validate=True)
+cors = CORS(app, resources={r"/*": {"origins": "*"}})
 
 @api.route("/country/<string:iso>")
 class Country(Resource):
