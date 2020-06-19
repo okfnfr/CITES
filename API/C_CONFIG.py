@@ -1,4 +1,4 @@
-DATABASE = "*****"
-USER = "*****"
-PASSWORD = "*****"
-HOST = "*****"
+DATABASE = "****"
+USER = "****"
+PASSWORD = "****"
+HOST = "****"
